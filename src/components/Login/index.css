@@ -1,0 +1,114 @@
+.login-bg {
+  height: 100vh;
+  font-family: 'roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  background-size: cover;
+  padding: 10px;
+}
+
+.login-card {
+  color: white;
+  background-color: #343243;
+  border-radius: 15px;
+  border: 2.05px solid;
+
+  box-shadow: 6.82px 6.82px 16.37px 0px #51515166 inset;
+  box-shadow: -6.82px -6.82px 20.46px 0px #28262675 inset;
+  width: 600px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(90, 86, 86, 0.28) 2.05%,
+    rgba(0, 0, 0, 0) 92.82%
+  );
+  background: linear-gradient(
+    145.12deg,
+    rgba(114, 104, 117, 0.21) 1.78%,
+    rgba(117, 116, 117, 0) 125.71%
+  );
+}
+
+.login-head {
+  font-size: 36px;
+}
+
+.login-input-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login-label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.login-input {
+  border: 1px solid #d7dfe9;
+  background-color: #343243;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  font-weight: 500;
+  width: 300px;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.login-checkbox {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+}
+
+.login-btn {
+  width: 300px;
+  height: 40px;
+  color: #1c1a28;
+  background-color: #ffbe38;
+  font-weight: bold;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.login-errormessage {
+  color: #ef4444;
+}
+
+@media (max-width: 576px) {
+  .login-card {
+    width: 300px;
+    padding: 15px;
+  }
+
+  .login-head {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .login-label {
+    font-size: 14px;
+  }
+
+  .login-input {
+    width: 280px;
+  }
+
+  .login-btn {
+    width: 250px;
+  }
+}

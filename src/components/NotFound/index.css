@@ -1,0 +1,17 @@
+.NotFound-Con {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  height: 90vh;
+  justify-content: center;
+  font-family: 'roboto';
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
+.NotFound-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  background-size: cover;
+}

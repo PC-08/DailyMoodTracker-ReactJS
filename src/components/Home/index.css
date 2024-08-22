@@ -1,0 +1,161 @@
+.home-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.emji-btn {
+  background-color: transparent;
+  border: 0;
+  color: white;
+  font-weight: bold;
+}
+
+.home-main-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'roboto';
+  padding: 20px;
+}
+
+.home-head {
+  color: #ffbe38;
+  padding: 20px;
+}
+
+.home-content-contaier {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.emojis-container {
+  margin: 0;
+  padding: 20px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'roboto';
+  box-shadow: 6.82px 6.82px 16.37px 0px #51515166 inset;
+  box-shadow: -6.82px -6.82px 20.46px 0px #28262675 inset;
+  background-color: #343243;
+  border-radius: 25px;
+  color: white;
+  font-weight: 500;
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(90, 86, 86, 0.28) 2.05%,
+    rgba(0, 0, 0, 0) 92.82%
+  );
+  background: linear-gradient(
+    145.12deg,
+    rgba(114, 104, 117, 0.21) 1.78%,
+    rgba(117, 116, 117, 0) 125.71%
+  );
+}
+
+.emoji-img {
+  width: 20px;
+}
+
+.active-emoji-img {
+  width: 40px;
+}
+
+.emoji-li {
+  margin: 10px;
+}
+
+.emoji-para-li {
+  font-size: 12px;
+}
+
+.active-emoji-para-li {
+  font-size: 20px;
+}
+
+.select {
+  padding: 10px;
+  width: 180px;
+
+  border: 1px solid #4e5d72;
+  box-shadow: 0px 1px 2px 0px #00000014;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 10px;
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(90, 86, 86, 0.28) 2.05%,
+    rgba(0, 0, 0, 0) 92.82%
+  );
+  background: linear-gradient(
+    145.12deg,
+    rgba(114, 104, 117, 0.21) 1.78%,
+    rgba(117, 116, 117, 0) 125.71%
+  );
+}
+
+.op {
+  font-weight: 500;
+  background-color: #343243;
+  margin: 10px;
+}
+
+.active-op {
+  color: #ffbe38;
+}
+
+.select-container {
+  font-family: 'roboto';
+  box-shadow: 6.82px 6.82px 16.37px 0px #51515166 inset;
+  box-shadow: -6.82px -6.82px 20.46px 0px #28262675 inset;
+  background-color: #343243;
+  border-radius: 25px;
+  color: white;
+  font-weight: 500;
+  padding: 30px;
+  margin-top: 20px;
+   border-image-source: linear-gradient(
+    139.28deg,
+    rgba(90, 86, 86, 0.28) 2.05%,
+    rgba(0, 0, 0, 0) 92.82%
+  );
+  background: linear-gradient(
+    145.12deg,
+    rgba(114, 104, 117, 0.21) 1.78%,
+    rgba(117, 116, 117, 0) 125.71%
+  );
+}
+
+@media (max-width: 576px) {
+  .home-content-contaier {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .select-container {
+    width: 300px;
+  }
+
+  .emojis-container {
+    width: 300px;
+    order: -1;
+  }
+
+  .home-main-container {
+    padding: 10px;
+  }
+
+  .home-head {
+    font-size: 18px;
+  }
+
+  .emoji-li {
+    margin: 5px;
+  }
+}

@@ -1,0 +1,96 @@
+.header-bar {
+  background-color: #42404d;
+}
+
+.header-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 0;
+  font-family: 'roboto';
+}
+
+.header-head {
+  color: #ffbe38;
+  list-style-type: none;
+}
+
+.header-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  width: 300px;
+}
+
+.header-link {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header-btn {
+  color: #ffbe38;
+  border: 2px solid #ffbe38;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 120px;
+  background-color: transparent;
+}
+
+.header-active {
+  color: white;
+}
+
+.header-mobile-view {
+  display: none;
+}
+
+.header-con-mob {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .header-head {
+    font-size: 12px;
+  }
+
+  .header-con {
+    display: none;
+    width: 100vw;
+  }
+  .header-mobile-view {
+    display: block;
+  }
+
+  .header-mobileView-btn {
+    background-color: transparent;
+    border: 0;
+  }
+
+  .header-icon {
+    color: white;
+    font-size: 28px;
+  }
+
+  .header-con-mob {
+    display: block;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+    background-size: cover;
+    height: 90vh;
+    list-style-type: none;
+    padding: 30px;
+  }
+
+  .header-link {
+    margin: 20px;
+    font-weight: bold;
+  }
+
+  .header-ul {
+    padding: 10px;
+    width: 100vw;
+  }
+}
